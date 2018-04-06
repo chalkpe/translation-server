@@ -1,0 +1,16 @@
+{
+  "name": "translation-server",
+  "version": "1.0.0",
+  "description": "CORS enabled Google Translate server",
+  "main": "index.js",
+  "repository": "https://ChalkPE@github.com/ChalkPE/translation-server.git",
+  "author": "Chalk <chalkpe@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "koa": "^2.5.0",
+    "koa-chalk-logger": "^1.0.1",
+    "node-google-translate-skidz": "^1.1.1",
+    "request": "^2.85.0"
+  }
+}
